@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Meie+Script&family=Meow+Script&family=Roboto:ital,wght@0,100..900;1,100..900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face{
+    font-family: marcos;
+    src: url(../fontes/idroid.otf) format(opentype);
+}
+
+:root{
+    --cor1:rgba(0, 195, 255, 0.623);
+    --cor2:rgb(4, 104, 235);
+    --cor3:rgb(15, 106, 241);
+}
+
+header{
+    background-image: linear-gradient(to bottom, rgb(4, 217, 245) , rgb(2, 110, 110));
+     max-width: 2900px;
+    min-width: 300px;
+    height: 135px;
+    
+}
+
+header > h1{
+      text-align: center;
+      padding: 0px 0px 25px;
+      font-family: "Meow Script", cursive;
+      font-weight: bolder;
+      font-style: normal;
+      font-size: 3em;
+}
+nav{
+    text-align: center;
+}
+
+nav > a{
+    margin: 35px;
+    border: 2px solid rgb(7, 200, 235);
+    
+}
+a{
+    display: inline;
+    color: rgb(5, 178, 247);;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
+
+main{
+    margin: auto;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-indent: 15px;
+    max-width: 1200px;
+    min-width: 300px;
+    text-align: justify;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.336);
+
+    
+}
+h1 , h2 , h3{
+   padding: 10px;
+}
+body{
+    background-color: aqua;
+
+}
+footer{
+    text-align: center;
+    margin: 25px;
+    font-family:"Meow Script", cursive; ;
+}
+p{
+    padding: 10px;
+    line-height:1.5em;
+}
+ img{
+    display: block;
+    margin: auto;
+   width: 100%;
+
+}
+iframe{
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 100%;
+}
+ul{
+    columns: 2; 
+}
+
+li:hover{
+    color: rgb(0, 60, 255);
+}
+h2{
+    background-image: linear-gradient(to right, rgba(3, 250, 238, 0.384) , transparent);
+}
+#primeiro{
+    text-align: center;
+    font-family: marcos;
+    font-weight: 100;
+    font-size: 32px;
+}
+
+a:hover{
+    background-color: var(--cor1);
+    color: var(--cor3);
+    text-decoration: underline;
+    animation-duration:1s; 
+}
+
+.pequena{
+    width: 50%;
+    margin: auto;
+}
+section{
+    background-color: rgba(106, 245, 245, 0.664);
+    max-width: 1000px;
+    margin: auto;
+    border-radius:10px;
+}
+
+section h3{
+    background-color: rgb(7, 145, 145);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+}
